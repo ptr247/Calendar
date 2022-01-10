@@ -1,0 +1,8 @@
+<h1>Calendar</h1>
+
+
+<ul>
+<% it.weekdays.forEach((weekday) => { %>
+  <li><%= weekday %></li>
+<% }); %>
+</ul>
